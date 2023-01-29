@@ -1,6 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color:#f1f1f1;
 }
+body::-webkit-scrollbar{
+    display: none;
+}
+/* section{
+    height: 100vh;
+} */
 .card{
     background-color:#e2e2e2;
     border-radius: 10px;
