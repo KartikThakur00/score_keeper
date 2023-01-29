@@ -1,23 +1,30 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-body{
-    background-color:#f1f1f1;
+body {
+    background-color: #f1f1f1;
 }
-body::-webkit-scrollbar{
+
+body::-webkit-scrollbar {
     display: none;
 }
-/* section{
+
+section {
     height: 100vh;
-} */
-.card{
-    background-color:#e2e2e2;
-    border-radius: 10px;
 }
-.image>img{
-border-radius: 10px;
-}
-.card-header{
+
+.card {
+    border: 2px solid #00000011;
     border-radius: 10px;
+    background-color: #e2e2e2;
+}
+
+.image>img {
+    border-radius: 10px 10px 0 0;
+}
+
+.card-footer {
+    padding: 5px;
+    gap: 5px;
 }
